@@ -1,0 +1,15 @@
+//ABATBeliever
+screen 0, 500, 45
+title "Window Outputter"
+word=""
+input word, 500, 20,9999
+button "Set", *set
+stop
+
+*set
+title ""
+screen 0, 300, 20
+clrobj
+pos 0, 0
+mes word
+stop
